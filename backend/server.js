@@ -26,8 +26,8 @@ const __dirname = path.resolve()
  
 //middleware
 app.use(cors({
-    origin: ['http://localhost:5171', 'http://localhost:3000', 'https://ecommerceout.vercel.app'],
-    credentials: true,
+    origin: 'https://ecommerceout.vercel.app',
+    credentials: true, 
 }))
 app.use(express.json());
 app.use(morgan('dev'));
