@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+} */
+
+/* .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 900
+
+/* .playfair-display-uniquifier {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+} */
+.nav-link{
+ font-family: "Poppins", sans-serif;
+}
+.navbar{
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height:26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  box-shadow:0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+
+
+.active{
+  background-color: orange;
+}
+
+.navbar-brand{
+  border-bottom: solid orange !important;
+  font-family: "poppins", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.register{
+  min-height: 90vh;
+  margin-bottom:15px;
+}
+.register_inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 85vh;
+  padding-bottom: 5px;
+  width: 100% !important;
+  border: 1px dotted orange;
+  border-radius: 10px;
+  margin-top:2.5vh;
+  box-shadow:-1px -1px 1px 1px orange;
+}
+.register_img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 85vh;
+  width: 100% !important;
+  //border: 1px solid blue;
+  border-radius: 10px;
+  margin-top:2.5vh
+}
+.register h1{
+  font-family: "Playball", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.login{
+  min-height: 90vh;
+  margin-bottom:15px;
+}
+.login_inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  width: 100% !important;
+  border: 1px dotted orange;
+  border-radius: 10px;
+  margin-top:10vh;
+  box-shadow:-1px -1px 1px 1px orange;
+}
+.login_img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  width: 100% !important;
+  //border: 1px solid blue;
+  border-radius: 10px;
+  margin-top:10vh
+}
+.login h1{
+  font-family: "Playball", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+.dash.active{
+  background-color: orange;
+  font-weight:bold;
+  color: black
+}
+
+#amenu.active{
+  font-family: "Poppins", "sans-serif" ;
+  font-size: 18px;
+  color: white;
+  border-color: white;
+  font-weight: 300;
+
+  background: #6C757D
+}
+
+
+
+.home .card img:hover {
+  transform: scale(0.9);
+}
+
